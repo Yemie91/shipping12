@@ -1,0 +1,862 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    --primary-color :red:var(--primary-color);
+    --secondary-color : rgb(206, 121, 10);
+    --margin: 30px 40px;
+    --button-padding:8px 25px;
+    --text : white;
+
+}
+
+            /* weareopen */
+.weareopen{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+    
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+@media (max-width:390px) {
+    .weareopen{
+        text-align: center;
+        color: var(--text);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        
+        
+    }
+}
+
+.weareopen1{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+@media (max-width:390px) {
+
+    .weareopen1{
+    
+        display: flex;
+        margin: 5px;
+        justify-content: center;
+    
+}
+}
+
+
+
+
+.watch {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.p1{
+    width: 200px;
+    height: 70px;
+    margin-bottom: 100px;
+    
+}
+.p2{
+    width: 70px;
+    height: 40px;
+   
+}
+
+.span{
+    color: brown;
+    font-size: larger;
+}
+.span1{
+    color: rgb(22, 7, 7);
+    font-size: small;
+}
+
+.smooth1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 4px 10px 10px 5px;
+    height: 100px;
+    border: none;
+}
+
+@media (max-width:390px) {
+    .smooth1{
+        display: grid;  
+        margin: 2px;
+        font-size: small;
+        justify-content: center;
+        padding: 20px;
+    
+       
+    } 
+}
+
+.smooth2{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+@media (max-width:390px) {
+    .smooth2{
+        display: flex;  
+        
+        height: 130px;
+        justify-content: center;
+        
+        
+        
+        
+        
+        
+    } 
+}
+
+
+
+
+
+.smooth3{
+    margin-right: 20px;
+    
+}
+
+.smooth4{
+    display: flex;
+    margin: 10px;
+    
+}
+@media (max-width:390px) {
+    .smooth4{
+        display: flex;
+        justify-content: center;
+        
+        
+        
+
+ 
+    } 
+}
+
+
+
+
+
+
+
+.smooth5{
+    display: grid;
+    line-height: 10px;
+}
+@media (max-width:390px) {
+    .smooth5{
+        display: grid; 
+       
+        
+    } 
+}
+
+
+
+         /* TRACK SHIPMENT */
+
+.track2{
+    background-color: var(--secondary-color);
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
+    cursor: pointer;
+    
+    
+    
+}
+
+@media (max-width:390px) {
+    .track2{
+        background-color: var(--secondary-color);
+        width: 110px;
+        height: 25px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        color: aliceblue;
+        font-size: small;
+        cursor: pointer;
+        
+    }
+}
+
+
+.track1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    
+    
+}
+
+@media (max-width:390px) {
+
+    .track1{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        margin-top: 120px;
+        
+    }
+}
+
+
+
+
+
+
+/* MY LORRY */
+
+/* .lorry1{
+    margin: 10px;
+    display: grid;
+    padding: 10px;
+    line-height: 20px;
+    
+    color: aliceblue;
+    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.815)), url(./IMG/lorry.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+
+@media (max-width:390px) {
+    .lorry1{
+        
+        display: grid;
+        padding: 10px;
+        line-height: 30px;
+        
+        color: aliceblue;
+        
+        background-image: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.815)), url(./IMG/lorry.jpeg);
+        background-size: cover;
+        background-position: center;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        border-radius: 10px;
+        margin-top: 100px;
+        
+    
+    }
+}
+
+
+.lorry2{
+    text-align: center;
+    padding: 10px;
+    color: rgb(180, 111, 8);
+    
+
+}
+
+@media (max-width:390px) {
+    .lorry2{
+        text-align: center;
+    margin: 20px;
+    color: rgb(180, 111, 8);
+    margin-top: 240px;
+    
+ 
+        
+    }
+}
+.lorry3{
+    text-align: center;
+    font-size: smaller;
+    
+}
+
+@media (max-width:390px) {
+    .lorry3{
+        text-align: center;
+        font-size: small;
+        line-height: 30px;
+        
+    }
+} */
+
+.lorry1{
+    margin: 20px;
+    display: grid;
+    padding: 20px;
+    line-height: 30px;
+    
+    color: aliceblue;
+    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.815)), url(./IMG/lorry.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+@media (max-width:390px) {
+    .lorry1{
+        margin: 20px;
+        display: grid;
+        padding: 20px;
+        line-height: 30px;
+        
+        
+        color: aliceblue;
+        
+    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.815)), url(./IMG/lorry.jpeg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        border-radius: 10px;
+    }
+}
+
+
+.lorry2{
+    text-align: center;
+    padding: 20px;
+    color: rgb(180, 111, 8);
+
+}
+.lorry3{
+    text-align: center;
+    
+}
+
+@media (max-width:390px) {
+    .lorry3{
+        text-align: center;
+        font-size: small;
+        
+    }
+}
+
+
+
+
+
+/* OUR vISION */
+
+.ship1{
+    margin: 20px;
+    display: grid;
+    padding: 20px;
+    line-height: 30px;
+    
+    color: aliceblue;
+    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.815)), url(./IMG/ship.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.ship2{
+    text-align: center;
+    padding: 20px;
+    color: rgb(180, 111, 8);
+
+}
+.ship3{
+    text-align: center;
+    
+}
+
+@media (max-width:390px) {
+    .ship3{
+        text-align: center;
+        font-size: small;
+        
+    }
+}
+
+
+/* BOXES */
+.b1{
+    background-color: rgb(199, 107, 3);
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    text-align:center ;
+    margin: 20px;
+    
+}
+.boximg{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.boxes{
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width:390px) {
+    .boxes{
+        margin-right: 5px;
+        display: grid;
+        
+    }
+}
+
+/* IMAGE SPIN    */
+
+.hand1{
+    display: flex;
+}
+.hand2{
+    width: 1270px;
+    height: 400px;
+    padding: 20px;
+    transform: rotate(45deg);
+}
+
+@media (max-width:390px) {
+    .hand2{
+       
+        height: 300px;
+        padding: 2px;
+        transform: rotate(20deg);
+    }
+}
+@keyframes spin{
+    from {transform: rotatey(0deg);}
+    to {transform: rotatey(360deg);}
+}
+.hand2{
+    animation: spin 5s infinite;
+}
+
+
+/* <!-- WHY WE STAND OUT --> */
+
+.stand{
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    gap: 35px;
+}
+
+@media (max-width:390px) {
+    .stand{
+        display: grid;
+        justify-content: center; 
+        padding: 45px;
+        background-color: black;
+        color: aliceblue;
+        
+        
+    }
+}
+
+
+
+.stand1{
+    text-align: center;
+}
+
+
+
+.delivery{
+    display: grid;
+    text-align: center;
+}
+
+.con1,.pro1,.div1{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
+.pro{
+    display: grid;
+    text-align: center;
+}
+
+
+
+
+.contact{
+    display: grid;
+    text-align: center;
+}
+
+.stand2,.div2,.pro2,.con2{
+    font-size: large;
+    color: chocolate;
+}
+
+
+
+
+
+/* HOME */
+.home1{
+    padding: 20px;
+    color: chocolate;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+}
+
+@media (max-width:390px) {
+    .home{
+        display: grid;
+        text-align: center;
+   
+    }
+}
+ .home11{
+    color: chocolate;
+    text-align: center;
+    padding: 20px;
+ }
+
+ @media (max-width:390px) {
+    .home11{
+        color: chocolate;
+        text-align: center;
+        font-size: small;
+        padding: 5px;
+     }
+ }
+.home2,.storage1{
+    width: 400px;
+    height:200px ;
+}
+@media (max-width:390px) {
+    .home2,.storage1{
+        
+        width: 300px;
+        height:200px ; 
+    }
+}
+
+/* 
+<!-- PROFESSIONAL TEAM --> */
+.span1{
+    color: chocolate;
+}
+.team{
+    display: flex;
+    margin: 4px;
+    justify-content: center;
+    
+}
+
+@media (max-width:390px) {
+    .team{
+        display: grid;
+        padding: 10px;
+    }
+}
+
+.team1{
+    text-align: center;
+}
+.team2{
+    display: grid;
+
+    margin: 5px;
+    
+}
+.team3{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.team4,.team5{
+    margin-left: 90px;
+}
+.team4{
+    color: chocolate;
+}
+
+/* FOOTER */
+
+.footer{
+text-align: center;
+background-color: rgba(0, 0, 0, 0.822);
+color: aliceblue;
+height: 140px;
+}
+
+.footer2{
+    padding-top: 100px;
+}
+
+/* TRACK RESULTS */
+
+.result00{
+display: grid;
+padding: 30px;
+line-height: 30px;
+margin-bottom: 0px;
+background-color: black;
+justify-content: center;
+background-image: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.815)), url(./IMG/lorry.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+    flex-direction: column;
+
+    /* height: 100vh; */
+    
+
+
+}
+
+@media (max-width:390px) {
+    .result00{
+        display: grid;
+        padding: 10px;
+        line-height: 30px;
+        margin-top: 130px;
+        background-color: black;
+        justify-content: center;
+        
+        
+        
+        
+        }
+}
+.result11{
+    padding: 40px;
+    color: aliceblue;
+}
+.result22{
+    background-color: saddlebrown;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.result55{
+    width: 300px;
+    border-radius: 10px;
+    height: 30px;
+   
+
+}
+
+.result33{
+    width: 300px;
+    border-radius: 10px;
+    height: 30px;
+    
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+.result44{
+    width: 300px;
+    background-color:saddlebrown ;
+    height: 70px;
+}
+
+.backhome{
+    color: rgb(4, 119, 38);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SHIPMENT HISTORY */
+
+.s1{
+    padding: 20px;
+    margin-left: 50px;
+}
+
+@media (max-width:390px) {
+    .s1{
+        padding: 20px;
+        margin-left: 10px;
+        margin-top: 100px;
+        height: 20px;
+    }
+}
+
+.s2{
+    display:flex ;
+    justify-content: space-around;
+    gap: 700px;
+    background-color: rgb(48, 1, 1);
+    color: aliceblue;
+    margin: 10px;
+
+}
+@media (max-width:390px) {
+    .s2{
+        display:flex ;
+        justify-content: center;
+        gap: 100px;
+        background-color: rgb(48, 1, 1);
+        color: aliceblue;
+        margin: 7px;
+        
+    
+    }
+}
+
+.s3{
+    display: flex;
+    justify-content:space-around ;
+    gap: 700px;
+    padding:20px ;
+    color: antiquewhite;
+    background-color: rgb(32, 1, 1);
+    margin:10px ;
+    height: 90%;
+}
+
+@media (max-width:390px) {
+    .s3{
+        display: flex;
+        justify-content:center ;
+        gap: 40px;
+        padding:10px ;
+        color: antiquewhite;
+        background-color: rgb(32, 1, 1);
+        margin:10px ;
+        height: 90%;
+    }
+}
+
+.ppp{
+display: flex;
+justify-content:center;
+gap: 3px;
+}
+
+
+.p11{
+    background-color: rgb(199, 148, 8);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.p22{
+    background-color: rgb(161, 16, 149);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+
+.p3{
+    background-color: rgb(16, 194, 40);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    
+}
+
+     
+ 
+.p4{
+    background-color: rgb(170, 30, 30);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+.gridmybox{
+    display: grid;
+}
